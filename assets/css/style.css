@@ -1,0 +1,34 @@
+/***********Images Start***********/
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background: url("../images/holiday-deals-frontpage.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/***********Images End***********/
+/***********Main structure Start***********/
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+* {
+  width: 100%;
+  text-align: center;
+}
+/***********Main structure End***********/
+/***********Navbar styling Start***********/
+
+/***********Main structure End***********/
