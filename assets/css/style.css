@@ -1,18 +1,4 @@
-/***********Images Start***********/
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bg {
-  background: url("../images/holiday-deals-frontpage.jpg");
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/***********Images End***********/
-/***********Main structure Start***********/
+/***********Main Structure Start***********/
 body {
   min-height: 100vh;
   position: relative;
@@ -28,6 +14,28 @@ footer {
   width: 100%;
   text-align: center;
 }
+/***********Main structure end Start***********/
+/***********Images Start***********/
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background: url("../images/holiday-deals-frontpage.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-packet{
+    padding-left: 10px;
+}
+
+/***********Images End***********/
+/***********Footer Start***********/
+
 
 .social-links li a i {
     width: 32px;
@@ -47,7 +55,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: yellow;
 }
 
 footer {
@@ -63,8 +71,24 @@ footer {
 .list{text-align:center}
 
 .list li{display:inline-block;margin:5px;}
-/***********Main structure End***********/
-/***********Main structure End***********/
+/***********Footer End***********/
+/***********Buttons start***********/
+
+
+.button {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  border-radius: 50%;}
+/***********Buttons end***********/
+/***********Paragraphs Start***********/
 .price {
     font-weight: bold;
     text-align: center;
@@ -78,8 +102,35 @@ footer {
     text-decoration: underline;
 }
 
-
-
-.image-packet{
-    padding-left: 10px;
+.spain-description{
+    font-size: 18px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.packet-description{
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.header-1{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+/***********Paragrapsh end***********/
+
+#map {
+   padding: 20px;
+   width: auto;
+   min-height: 360px;
+   background-color: grey;
+   
+ }
