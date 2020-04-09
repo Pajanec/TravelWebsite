@@ -64,7 +64,22 @@ footer {
 
 .list li{display:inline-block;margin:5px;}
 /***********Main structure End***********/
-/***********Navbar styling Start***********/
-
-
 /***********Main structure End***********/
+.price {
+    font-weight: bold;
+    text-align: center;
+    font-size:24px;
+    padding: 5px;
+}
+.name-of-packet{
+    font-size:30px;
+    text-align: center;
+    Padding: 50px;
+    text-decoration: underline;
+}
+
+
+
+.image-packet{
+    padding-left: 10px;
+}
