@@ -6,13 +6,15 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/sandstone/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-<link rel="stylesheet" href="assets/css/stylesheet.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/script.js" ></script> 
 
 <title>Title</title>
 </head>
 <body>
-<header>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<header  >
+<nav class="navbar  navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="home.html">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,26 +25,70 @@
       <li class="nav-item active">
         <a class="nav-link" href="map.html">Map <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="holiday-specials-offer.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Holiday Deals
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="holiday-specials-offer-spain.html">Holiday Packet Spain</a>
-          <a class="dropdown-item" href="holiday-specials-offer-france.html">Holiday Packet  France</a>
-          <a class="dropdown-item" href="holiday-specials-offer-switzerland.html">Holiday Packet  Switzerland</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="holiday-specials-offer.html">Holiday Deals</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact-us.html">Contact Us</a>
       </li>
     </ul>
-    </div>
+    
+</div>
   </nav>
   </header>
+
+<div class="container">
+<section>
+<div class="row">
+<h1 class="header-1">LUCERNE, SWITZERLAND</h1>
+<img src="assets/images/lucerne.jpg" class="img-fluid" alt="Responsive image">
+</div>
+
+<div class="row">
+  <div class="col-sm-7">
+    <p class="spain-description"> Recipe for a gorgeous Swiss city: take a cobalt lake ringed by mountains of myth, add a well-preserved medieval Altstadt (Old Town) and a reputation
+     for making beautiful music, then sprinkle with covered bridges, sunny plazas, candy-coloured houses and waterfront promenades. Lucerne is stunning, and deservedly popular since 
+     the likes of Goethe, Queen Victoria and Wagner savoured its views in the 19th century. 
+    Legend has it that an angel with a light showed the first settlers where to build a chapel in Lucerne, and today it still has amazing grace.</p>
+      <p class="spain-description">One minute it’s nostalgic, the next highbrow. Though the shops are still crammed with what Mark Twain so eloquently described as ‘gimcrackery of 
+      the souvenir sort’, Lucerne doesn’t only dwell on the past, with a roster of music gigs keeping the vibe upbeat. 
+      Carnival capers at Fasnacht, balmy summers, golden autumns – this ‘city of lights’ shines in every season.</p>
+    
+  </div>
+  <div class="col-sm-5">
+  <div id="map2">
+  </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-6 ">
+     <div class="dropdown">
+  <button class="dropbtn">ALL INCLUSIVE</button>
+  <div class="dropdown-content">
+    <p>3 MEALS INCLUDED</p>
+    <p>FREE DRINKS</p>
+    <p>UNLIMITED USAGE OF HOTEL FACILITIES</p>
+  </div>
+</div>
+      </div>
+      <div class="col-sm-6">
+      
+      <a href="contact-us.html" class="btn button" role="button">1300 Euros</a>
+      
+     
+      </div>
+    </div>
+</div>
+
+</section>
+</div>
+
   
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3CyyvGmiOUD1MO4bMPAuzLm985Vjcm84&callback=initMap"></script>
+
+    
 </body>
 </html>

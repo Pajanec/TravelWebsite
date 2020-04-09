@@ -6,13 +6,15 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/sandstone/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-<link rel="stylesheet" href="assets/css/stylesheet.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/script.js" ></script> 
 
 <title>Title</title>
 </head>
 <body>
-<header>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<header  >
+<nav class="navbar  navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="home.html">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,26 +25,67 @@
       <li class="nav-item active">
         <a class="nav-link" href="map.html">Map <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="holiday-specials-offer.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Holiday Deals
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="holiday-specials-offer-spain.html">Holiday Packet Spain</a>
-          <a class="dropdown-item" href="holiday-specials-offer-france.html">Holiday Packet  France</a>
-          <a class="dropdown-item" href="holiday-specials-offer-switzerland.html">Holiday Packet  Switzerland</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="holiday-specials-offer.html">Holiday Deals</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact-us.html">Contact Us</a>
       </li>
     </ul>
-    </div>
+    
+</div>
   </nav>
   </header>
+
+<div class="container">
+<section>
+<div class="row">
+<h1 class="header-1">ARLES, FRANCE</h1>
+<img src="assets/images/lucerne.jpg" class="img-fluid" alt="Responsive image">
+</div>
+
+<div class="row">
+  <div class="col-sm-7">
+    <p class="spain-description"> Roman treasures, shady squares and plenty of Camarguais culture make Arles a seductive stepping stone into the Camargue.
+     And if its colourful sun-baked houses evoke a sense of déjà vu, it’s because you’ve seen them already on a Van Gogh canvas – the artist painted 200-odd works around town, 
+    though sadly his famous little ‘yellow house’ at 2 place Lamartine, which he painted in 1888, was destroyed during WWII.</p>
+      <p class="spain-description">Arles' Saturday market is also a must-see – it's one of Provence's best.</p>
+    
+  </div>
+  <div class="col-sm-5">
+  <div id="map3">
+  </div>
+  </div>
+  <div class="row">
+      <div class="col-sm-6 ">
+     <div class="dropdown">
+  <button class="dropbtn">ALL INCLUSIVE</button>
+  <div class="dropdown-content">
+    <p>3 MEALS INCLUDED</p>
+    <p>FREE DRINKS</p>
+    <p>UNLIMITED USAGE OF HOTEL FACILITIES</p>
+  </div>
+</div>
+      </div>
+      <div class="col-sm-6">
+      
+      <a href="contact-us.html" class="btn button" role="button">1300 Euros</a>
+      
+     
+      </div>
+    </div>
+</div>
+
+</section>
+</div>
+
   
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3CyyvGmiOUD1MO4bMPAuzLm985Vjcm84&callback=initMap"></script>
+
+    
 </body>
 </html>

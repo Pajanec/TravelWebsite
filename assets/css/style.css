@@ -76,9 +76,9 @@ footer {
 
 
 .button {
-  background-color: grey;
+  background-color: #FFC43D;
   border: none;
-  color: white;
+  color: #F8FFE5;
   padding: 20px;
   text-align: center;
   text-decoration: underline;
@@ -103,8 +103,8 @@ footer {
 }
 
 .spain-description{
-    font-size: 18px;
-    padding: 5px;
+    font-size: 30px;
+    padding: 40px;
     text-decoration: none;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -120,17 +120,63 @@ footer {
 
 .header-1{
     font-weight: 900;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
+    padding: 20px;
 
 }
 
 /***********Paragrapsh end***********/
-
+/***********Map start***********/
 #map {
-   padding: 20px;
    width: auto;
-   min-height: 360px;
+   height: 400px;
    background-color: grey;
    
  }
+
+ #map2 {
+   width: auto;
+   height: 400px;
+   background-color: grey;
+   
+ }
+
+ #map3 {
+   width: auto;
+   height: 400px;
+   background-color: grey;
+   
+ }
+
+/***********Map end***********/
+/***********Dropdown Button***********/
+
+.dropbtn {
+  background-color: ##F8FFE5;
+  color: #06D6A0;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color:#06D6A0;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #F8FFE5;}
+/***********Dropdown Button end***********/
