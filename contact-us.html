@@ -7,6 +7,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/sandstone/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_HxRYZLQylKGvr7kMOQ4Gw");
+         })();
+</script>
 
 <title>Title</title>
 </head>
@@ -36,110 +44,52 @@
   </nav>
   </header>
  
-<section class="mb-4">
-
-    
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-    
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
-
-    <div class="row">
-
-       
-        <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                
-                <div class="row">
-
-                   
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Your name</label>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Your email</label>
-                        </div>
-                    </div>
-                   
-
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Subject</label>
-                        </div>
-                    </div>
-                </div>
-                
-
-                
-                <div class="row">
-
-                   
-                    <div class="col-md-12">
-
-                        <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                            <label for="message">Your message</label>
-                        </div>
-
-                    </div>
-                </div>
-               
-
-            </form>
-
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+ <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div>
+                <h3 class="contact-heading uppercase text-center">Got a holiday deal in mind?</h3>
+                <h5 class="uppercase text-center">Let's work together</h5>
             </div>
-            <div class="status"></div>
+            <div class="center-form">
+                <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <input type="text" name="phonenumber" class="form-control" id="phonenumber" placeholder="Phone Number" required/>
+                    <textarea rows="7" name="packet" class="form-control" id="packetinformation" placeholder="Which packet would you like?" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">SEND EMAIL</button>
+                </form>
+            </div>
         </div>
-      
-
-    </div>
-
-</section>
-
- <footer class="container-fluid">
+    </section>
+<footer class="container-fluid">
  <div id="footer-details" class="row">
-  <div class="col-sm-4">
-  <button type="button" class="btn btn-dark btn-lg">
+  <div class="col-sm-6">
+  
+  <button type="button" class="btn btn-dark btn-lg" id="contact-button">
       <a href="contact-us.html">Contact Us!</a>
       </button>
    </div>
-<div class="col-sm-4"></div>
-            <div class="col-sm-4">
+
+            <div class="col-sm-6">
  <h5>Social</h5>
-    <ul class="list-inline social-links">
-      <li class="list-inline-item">
+   
+    <p >
         <a href="https://facebook.com/" target="_blank">
           <i class="fab fa-facebook-f"> </i>
         </a>
-      </li>
-
-
-      <li class="list-inline-item">
+      </p>
+ <p>
         <a href="https://twitter.com/" target="_blank">
           <i class="fab fa-twitter" > </i>
         </a>
-      </li>
+     </p>
       
-      <li class="list-inline-item">
+      <p>
         <a href="https://instagram.com/" target="_blank" > 
          <i class="fab fa-instagram" ></i>
         </a>
-      </li>
-     
-      </ul>
+      </p>
+      
   </div>
  </div>
 </footer>
@@ -147,5 +97,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="assets/js/emailsend.js"></script>
 </body>
 </html>
