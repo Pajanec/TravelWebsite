@@ -60,7 +60,7 @@ body, html {
 }
 
 footer {
-    background-color: #525252;
+    background-color:#C0C0C0;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -90,7 +90,7 @@ footer {
   font-size: 20px;
   font-weight: bold;
   margin: 4px 2px;
-  border-radius: 50%;}
+  }
 /***********Buttons end***********/
 /***********Paragraphs Start***********/
 .price {
@@ -107,7 +107,7 @@ footer {
 }
 
 .spain-description{
-    font-size: 30px;
+    font-size: 15px;
     padding: 40px;
     text-decoration: none;
     text-align: center;
@@ -129,7 +129,21 @@ footer {
     padding: 20px;
 
 }
+.header-2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    text-decoration: underline;
+}
 
+.all-inclusive-list{
+    line-height: 4;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+
+}
 /***********Paragrapsh end***********/
 /***********Map start***********/
 #map {
@@ -138,40 +152,8 @@ footer {
   
 }
 
-
-
- 
 /***********Map end***********/
-/***********Dropdown Button***********/
 
-.dropbtn {
-  background-color: ##F8FFE5;
-  color: #06D6A0;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  color:#06D6A0;
-}
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #F8FFE5;}
-/***********Dropdown Button end***********/
 /***********Contact From styling start***********/
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -199,8 +181,14 @@ button[type="submit"] {
     margin-top: 20px;
     text-align: center;
     font-weight: 800;
+    background-color: 	#C0C0C0;
+    border-style: none;
     
     
+}
+
+a {
+    color:#FFC43D;
 }
 /***********Contact From styling end***********/
 
