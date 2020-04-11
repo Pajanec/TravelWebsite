@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.4.1/sandstone/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -36,13 +37,47 @@
   </nav>
   </header>
 <section>
-<input id="pac-input" class="controls" type="text" placeholder="Search Box">
+
 <div id="map"></div>
 </section>
-  
+  <footer class="container-fluid">
+ <div id="footer-details" class="row">
+  <div class="col-sm-6">
+  <button type="button" class="btn btn-dark btn-lg" id="contact-button">
+      <a href="contact-us.html">Contact Us!</a>
+      </button>
+   </div>
+
+            <div class="col-sm-6">
+ <h5>Social</h5>
+    <ul class="list-inline social-links" id="footer-style">
+      <li class="list-inline-item">
+        <a href="https://facebook.com/" target="_blank">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+
+
+      <li class="list-inline-item">
+        <a href="https://twitter.com/" target="_blank">
+          <i class="fab fa-twitter" > </i>
+        </a>
+      </li>
+      
+      <li class="list-inline-item">
+        <a href="https://instagram.com/" target="_blank" > 
+         <i class="fab fa-instagram" ></i>
+        </a>
+      </li>
+     
+      </ul>
+  </div>
+ </div>
+</footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3CyyvGmiOUD1MO4bMPAuzLm985Vjcm84&callback=initMap"></script>
 </body>
 </html>

@@ -3,6 +3,7 @@ body {
   min-height: 100vh;
   position: relative;
   margin: 0;
+  
 }
 
 footer {
@@ -10,7 +11,7 @@ footer {
   bottom: 0;
 }
 
-* {
+ * {
   width: 100%;
   text-align: center;
 }
@@ -21,7 +22,7 @@ body, html {
   margin: 0;
 }
 
-.bg {
+#bg {
   background: url("../images/holiday-deals-frontpage.jpg");
   height: 100%; 
   background-position: center;
@@ -68,9 +69,12 @@ footer {
     padding: 20px;
 }
 
-.list{text-align:center}
+#footer-style{
+    justify-content: center;
+    width: 40px;
+    display: inline-flex;
+}
 
-.list li{display:inline-block;margin:5px;}
 /***********Footer End***********/
 /***********Buttons start***********/
 
@@ -129,80 +133,13 @@ footer {
 /***********Paragrapsh end***********/
 /***********Map start***********/
 #map {
-  height: 500px;
+  height: 700px;
+  
+  
 }
 
 
- #description {
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: 300;
-      }
 
-      #infowindow-content .title {
-        font-weight: bold;
-      }
-
-      #infowindow-content {
-        display: none;
-      }
-
-      #map #infowindow-content {
-        display: inline;
-      }
-
-      .pac-card {
-        margin: 10px 10px 0 0;
-        border-radius: 2px 0 0 2px;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        outline: none;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-        background-color: #fff;
-        font-family: Roboto;
-      }
-
-      #pac-container {
-        padding-bottom: 12px;
-        margin-right: 12px;
-      }
-
-      .pac-controls {
-        display: inline-block;
-        padding: 5px 11px;
-      }
-
-      .pac-controls label {
-        font-family: Roboto;
-        font-size: 13px;
-        font-weight: 300;
-      }
-
-      #pac-input {
-        background-color: #fff;
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: 300;
-        margin-left: 12px;
-        padding: 0 11px 0 13px;
-        text-overflow: ellipsis;
-        width: 400px;
-      }
-
-      #pac-input:focus {
-        border-color: #4d90fe;
-      }
-
-      #title {
-        color: #fff;
-        background-color: #4d90fe;
-        font-size: 25px;
-        font-weight: 500;
-        padding: 6px 12px;
-      }
-      #target {
-        width: 345px;
-      }
  
 /***********Map end***********/
 /***********Dropdown Button***********/
@@ -259,10 +196,18 @@ button[type="submit"] {
 
 
 #contact-button{
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
     font-weight: 800;
     
     
 }
 /***********Contact From styling end***********/
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    bottom: 0
+}
+
