@@ -59,11 +59,19 @@ body, html {
     background: yellow;
 }
 
-footer {
+#footer-pages {
     background-color:#C0C0C0;
     color: #fafafa;
-    min-height: 120px;
+    height: 120px;
     margin: 0;
+    
+}
+#footer {
+    background-color:#C0C0C0;
+    color: #fafafa;
+    height: 120px;
+    margin: 0;
+    position: absolute;
 }
 #footer-details {
     padding: 20px;
@@ -195,7 +203,7 @@ a {
 .container-fluid{
     padding-left: 0;
     padding-right: 0;
-    position: relative;
+    
     bottom: 0
 }
 
