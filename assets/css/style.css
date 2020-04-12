@@ -104,8 +104,8 @@ body, html {
 .price {
     font-weight: bold;
     text-align: center;
-    font-size:24px;
-    padding: 5px;
+    font-size:30px;
+    padding: 30px;
 }
 .name-of-packet{
     font-size:30px;
@@ -186,11 +186,12 @@ button[type="submit"] {
 
 
 #contact-button{
-    margin-top: 20px;
+    
     text-align: center;
     font-weight: 800;
-    background-color: 	#C0C0C0;
+    
     border-style: none;
+    font-size: 20px;
     
     
 }
