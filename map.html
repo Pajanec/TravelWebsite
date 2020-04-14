@@ -14,22 +14,22 @@
 </head>
 <body>
 <header  >
-<nav class="navbar  navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="home.html">Home</a>
+<nav class="navbar  navbar-expand-lg navbar-light bg-light"> 
+  <a class="navbar-brand" href="home.html"  id="navbar-style">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="map.html">Map <span class="sr-only">(current)</span></a>
+    <ul class="navbar-nav mr-auto" >
+      <li class="nav-item active" >
+        <a class="nav-link" href="map.html" id="navbar-style-map" >Locations <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" id="navbar-style-buttons">
+        <a class="nav-link" href="holiday-specials-offer.html" id="navbar-style-holiday">Holiday Deals</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="holiday-specials-offer.html">Holiday Deals</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact-us.html">Contact Us</a>
+        <a class="nav-link" href="contact-us.html" id="navbar-style-contact" >Contact Us</a>
       </li>
     </ul>
     
@@ -40,15 +40,15 @@
 
 <div id="map"></div>
 </section>
-  <footer class="container-fluid">
- <div id="footer-details" class="row">
+
+ <div id="footer" class="row">
   <div class="col-sm-6">
-  <button type="button" class="btn btn-dark btn-lg" id="contact-button">
-      <a href="contact-us.html">Contact Us!</a>
-      </button>
+  <div id="footer-details">
+   <a href="contact-us.html" role="button" class="button" id="contact-button">Contact Us!</a>
+  </div>
    </div>
 
-            <div class="col-sm-6">
+            <div class="col-sm-6"  id="footer-style-map">
  <h5>Social</h5>
     <ul class="list-inline social-links" id="footer-style">
       <li class="list-inline-item">
@@ -73,7 +73,7 @@
       </ul>
   </div>
  </div>
-</footer>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
