@@ -20,7 +20,7 @@ function initMap() {
 
   google.maps.event.addListener(marker,'click',function() {
   
-  map.setZoom(15);
+  map.setZoom(16);
   map.setCenter(marker.getPosition());
   window.setTimeout(function() {map.panTo(marker.getPosition());
     }, 3000);
@@ -28,7 +28,7 @@ function initMap() {
 
 google.maps.event.addListener(spain,'click',function() {
   
-  map.setZoom(15);
+  map.setZoom(16);
   map.setCenter(spain.getPosition());
   window.setTimeout(function() {map.panTo(spain.getPosition());
     }, 3000);
@@ -36,7 +36,7 @@ google.maps.event.addListener(spain,'click',function() {
 
 google.maps.event.addListener(france,'click',function() {
  
-  map.setZoom(15);
+  map.setZoom(16);
   map.setCenter(france.getPosition());
   window.setTimeout(function() {map.panTo(france.getPosition());
     }, 3000);
