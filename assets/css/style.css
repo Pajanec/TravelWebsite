@@ -22,14 +22,6 @@ body, html {
   margin: 0;
 }
 
-#bg {
-  background: url("../images/holiday-deals-frontpage.jpg");
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .image-packet{
     padding-left: 10px;
 }
@@ -67,11 +59,26 @@ body, html {
     
 }
 #footer {
-    background-color:	#808080;
+    background-color:#808080;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
-    position: absolute;
+    position: relative;
+    
+}
+
+#footer-holiday-page{
+    background-color:	#808080;
+    color: #fafafa;
+    min-height: 120px;
+    position: relative;
+    margin-top: 100px;
+}
+#footer-contact-us-page{
+    position: relative;
+    margin-top: 300px;
+    background-color: #808080;
+    color: #fafafa;
     
 }
 #footer-details {
@@ -276,3 +283,16 @@ a {
     font-weight: bold;
      color:	#303030;
 }
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-1{
+      font-size: 30px;
+  }
+  
+}
+
+
