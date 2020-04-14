@@ -63,19 +63,18 @@ This project has been deployed through GitHub pages, via master branch which upd
 
 ## Content
 
-Granada text was copied from [here](https://www.lonelyplanet.com/spain/granada)
-Arles text was copied from [here](https://www.lonelyplanet.com/france/provence/arles)
-Lucerne text was copied form [here](https://www.lonelyplanet.com/switzerland/central-switzerland-and-berner-oberland/lucerne)
-Granada quote was taken from [this website](https://www.ciceronegranada.com/en/blog/famous-granadas-quotes/)
-Van Gogh quote  was taken from [this website](https://www.goodreads.com/author/quotes/34583.Vincent_van_Gogh)
+--Granada text was copied from [here](https://www.lonelyplanet.com/spain/granada)
+--Arles text was copied from [here](https://www.lonelyplanet.com/france/provence/arles)
+--Lucerne text was copied form [here](https://www.lonelyplanet.com/switzerland/central-switzerland-and-berner-oberland/lucerne)
+--Granada quote was taken from [this website](https://www.ciceronegranada.com/en/blog/famous-granadas-quotes/)
+--Van Gogh quote  was taken from [this website](https://www.goodreads.com/author/quotes/34583.Vincent_van_Gogh)
 ## Media
-Holiday deals package picture for Spain was taken from [here](https://amateurtraveler.com/wp-content/uploads/2019/01/Alhambra-Palace-Garden.jpg)
-Holiday deals package picture for France was taken from [here](https://www.alliance-francaise-montpellier.com/IMG/arton477.jpg)
-Holiday deals package picture for Switzerland was taken from [here](https://www.worldtravelguide.net/wp-content/uploads/2017/04/Think-Switzerland-Country-Zermatt-Matterhorn-486574518-extravagantni-copy.jpg)
-Picture for  the Granada  page was taken from  [here](https://multimedia.andalucia.org/media/0B97BD505CE24B07830CE6C43B03E173/img/929BE4B0C9AE4901918F8D5B309BC441/15-18_Alhabram_des_del_mirador_de_San_Nicolas_Granada.jpg?responsive)
-Picture for  the Arles page was taken from [here](https://cdn.thecrazytourist.com/wp-content/uploads/2019/10/ccimage-shutterstock_1342139153.jpg)
-Picture for  the Lucerne page was taken from [here](https://images.classic-collection.co.uk/content/DataObjects/Resort/Image/image_672_v3.jpg)
+--Holiday deals package picture for Spain was taken from [here](https://amateurtraveler.com/wp-content/uploads/2019/01/Alhambra-Palace-Garden.jpg)
+--Holiday deals package picture for France was taken from [here](https://www.alliance-francaise-montpellier.com/IMG/arton477.jpg)
+--Holiday deals package picture for Switzerland was taken from [here](https://www.worldtravelguide.net/wp-content/uploads/2017/04/Think-Switzerland-Country-Zermatt-Matterhorn-486574518-extravagantni-copy.jpg)
+--Picture for  the Granada  page was taken from  [here](https://multimedia.andalucia.org/media/0B97BD505CE24B07830CE6C43B03E173/img/929BE4B0C9AE4901918F8D5B309BC441/15-18_Alhabram_des_del_mirador_de_San_Nicolas_Granada.jpg?responsive)
+--Picture for  the Arles page was taken from [here](https://cdn.thecrazytourist.com/wp-content/uploads/2019/10/ccimage-shutterstock_1342139153.jpg)
+--Picture for  the Lucerne page was taken from [here](https://images.classic-collection.co.uk/content/DataObjects/Resort/Image/image_672_v3.jpg)
 ## Acknowledgements
-
 
 All of bootstrap content inside this project was taken from [here](https://mdbootstrap.com/)
