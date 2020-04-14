@@ -117,15 +117,22 @@ body, html {
 .name-of-packet{
     font-size:30px;
     text-align: center;
-    Padding: 50px;
-    text-decoration: underline;
+    Padding: 30px;
+    
 }
 
-.spain-description{
-    font-size: 15px;
-    padding: 40px;
+.paragraph-description{
+    font-size: 20px;
+    padding-top: 40px;
     text-decoration: none;
-    text-align: center;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph-description-info{
+     font-size: 20px;
+    
+    text-decoration: none;
+    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -142,23 +149,52 @@ body, html {
     font-size: 60px;
     text-align: center;
     padding: 20px;
+    color:#FFC43D;
 
 }
 .header-2{
+    
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     padding-top: 15px;
     text-decoration: underline;
+    color:#EF467F;
 }
 
+.contact-from-header{
+    font-weight: bold;
+    
+}
 .all-inclusive-list{
-    line-height: 4;
+    line-height: 2;
     font-weight: 400;
     font-size: 18px;
     font-style: italic;
+    color:#EF467F;
+    list-style-type: none;
 
 }
+#all-inclusive-style{
+    padding-top:50px;
+}
+
+
+.granada{
+    font-size: 14px;
+    text-align: justify;
+    font-style: italic;
+    padding-bottom:45px;
+}
+
+.arles {font-size: 14px;
+    text-align: justify;
+    font-style: italic;}
+
+.lucerne{ font-size: 14px;
+    text-align: justify;
+    font-style: italic;
+    padding-bottom: 20px;}
 /***********Paragrapsh end***********/
 /***********Map start***********/
 #map {
