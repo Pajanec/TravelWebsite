@@ -6,12 +6,17 @@
 }
 body, html {
   height: 100%;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Verdana', sans-serif;
 }
 
 footer {
   position: absolute;
   bottom: 0;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    bottom: 0
 }
 
 /***********Main structure end Start***********/
@@ -122,28 +127,19 @@ ul.navigation li.logo{
   text-align:center;
 }
 
-a{
-    color:#403031;
-  text-decoration: none;
-}
-
 .example:hover{
   opacity:.85;
 }
-
 form.example button:hover {
   background:lightgrey;
   border:2px solid lightgrey;
 }
-
 form.example::after {
   content: "";
   clear: both;
   display: table;
 }
-
 /***********Images Start***********/
-
 .collage {
   display: flex; 
   align-items: center;
@@ -153,14 +149,8 @@ form.example::after {
   padding: 0;
   width: 100%;
 }
-
 /***********Images Start***********/
-
-
-
 /***********Footer Start***********/
-
-
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -237,8 +227,6 @@ form.example::after {
 }
 /***********Footer End***********/
 /***********Buttons start***********/
-
-
 .button {
     font-family: Verdana;
     background-color: black;
@@ -271,47 +259,8 @@ form.example::after {
   }
 /***********Buttons end***********/
 /***********Paragraphs Start***********/
-.price {
-    font-weight: bold;
-    text-align: center;
-    font-size:30px;
-    padding: 30px;
-}
-.name-of-packet{
-    font-size:30px;
-    text-align: center;
-    Padding: 30px;
-    
-}
 
 
-
-
-.packet-description{
-    font-size: 20px;
-    text-decoration: underline;
-    text-align: center;
-    padding: 3px;
-    font-weight: bold;
-}
-
-.header-1{
-    font-weight: 900;
-    font-size: 60px;
-    text-align: center;
-    padding: 20px;
-    color:#68575C;
-    margin-bottom: 0;
-    width: 100%;
-    background-color:#CEA29A;
-    
-
-}
-
-.contact-from-header{
-    font-weight: bold;
-    
-}
 .all-inclusive-list{
     text-align: justify;
     font-family: Verdana;
@@ -323,35 +272,19 @@ form.example::after {
 	color: #95a5a6;
     
 }
-
-
-
-.granada{
-    font-size: 14px;
-    text-align: justify;
-    font-style: italic;
-    padding-bottom:45px;
-}
-
-.arles {font-size: 14px;
-    text-align: justify;
-    font-style: italic;}
-
-.lucerne{ font-size: 14px;
-    text-align: justify;
-    font-style: italic;
-    padding-bottom: 20px;}
 /***********Paragrapsh end***********/
 /***********Map start***********/
 #map {
   height: 765px;
-  
-  
-}
+  }
 
 /***********Map end***********/
 
 /***********Contact From styling start***********/
+.contact-from-header{
+    font-weight: bold;
+    
+}
 .contact-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -395,17 +328,7 @@ button[type="submit"] {
 }
 
 
-/***********Contact From styling end***********/
-
-.container-fluid{
-    padding-left: 0;
-    padding-right: 0;
-    
-    bottom: 0
-}
-
-
-
+/***********Contact Form styling end***********/
 /***********Media queries start***********/
 
 @media screen and (max-width: 900px) {
@@ -462,8 +385,6 @@ button[type="submit"] {
 
 /***********Holiday page start***********/
 
-
-
 body{
   background-color:white;
 }
@@ -498,28 +419,10 @@ body{
     background-size: 160%;
     
   }
-.effect-2:hover{
-    transform: scale(1.03);
-      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-  }
-  .effect-2:hover .image{
-    background-position: center bottom;
-    
-  }
   .effect-1:hover .image:after{
     opacity: 1;
   }
-  .image:after{
-    content: "";
-    position: absolute;
-    transition: all 0.4s ease-in-out;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(#6cc0c6, 0.6);
-  }
+ 
   .image{
     height: 300px;
     transition: 0.4s ease-in-out;
@@ -539,7 +442,7 @@ body{
     background-image: url("/assets/images/holiday-offers/france.jpg");
   }
     .image4{
-    background-image: url("/assets/images/holiday-offers/istra-front.jpg");
+    background-image: url("/assets/images/holiday-offers/istra.jpg");
 
   }
     .image5{
@@ -596,17 +499,12 @@ body{
     color: #288F91;
     
   }
-  
-  
-
-#card-margin{
+  #card-margin{
     margin-top:15px;
 }
 
 /***********Holiday page end***********/
-
-
-/***********Holiday page start***********/
+/***********Holiday pages main code start***********/
 
 
 body {
@@ -647,6 +545,8 @@ body {
 	z-index: 3;
 }
 
+/***********Holiday pages main code end***********/
+/***********Holiday page Spain start***********/
 #photo {
 	height: 100%;
 	float:left;
@@ -658,6 +558,7 @@ body {
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px; 
 }
+
 
 #photo h1 {
     font-family:Verdana;
@@ -724,3 +625,195 @@ body {
 	display: block;
 	margin: 0 auto 0 5%;
 }
+
+/***********Holiday page Spain End***********/
+/***********Holiday page Istra start***********/
+#photo-istria {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('/assets/images/istra-front.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo-istria h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 65%;
+	font-size: 4em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo-istria hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags-istria {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 65%;
+	left: 10%;
+	word-spacing: 10px;
+}
+/***********Holiday page Istra end***********/
+/***********Holiday page Lucerne start***********/
+#photo-lucerne {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('/assets/images/lucerne.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo-lucerne h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 65%;
+	font-size: 3.2em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo-lucerne hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags-lucerne {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 65%;
+	left: 10%;
+	word-spacing: 10px;
+}
+/***********Holiday page Lucerne end***********/
+/***********Holiday page  Arles start***********/
+#photo-arles {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('/assets/images/arles.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo-arles h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 55%;
+	font-size: 4em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo-arles hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags-arles {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 62%;
+	left: 10%;
+	word-spacing: 10px;
+}
+/***********Holiday page Arles End***********/
+/***********Holiday page Corfu start***********/
+#photo-corfu {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('/assets/images/corfu.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo-corfu h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 65%;
+	font-size: 4em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo-corfu hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags-corfu {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 65%;
+	left: 10%;
+	word-spacing: 10px;
+}
+/***********Holiday page Corfu end***********/
+/***********Holiday page Florence start***********/
+#photo-florence {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('/assets/images/florence.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo-florence h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 65%;
+	font-size: 4em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo-florence hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags-florence {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 65%;
+	left: 10%;
+	word-spacing: 10px;
+}
+/***********Holiday page Florence end***********/
