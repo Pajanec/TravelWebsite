@@ -190,19 +190,15 @@ form.example::after {
     
 }
 
-#footer-holiday-page{
-    background-color:	white;
+
+#footer-contact-us-page{
+    background-color:white;
     color: #808080;
     min-height: 120px;
+    margin: 0;
     position: relative;
-    margin-top: 100px;
     opacity: 0.65;
-}
-#footer-contact-us-page{
-    position: relative;
-    margin-top: 300px;
-    background-color: white;
-    color: #808080;
+    padding-top: 5%
     
 }
 #footer-details {
@@ -281,22 +277,30 @@ form.example::after {
 /***********Map end***********/
 
 /***********Contact From styling start***********/
+#contact-us-section{
+    padding-top:15%;
+}
 .contact-from-header{
     font-weight: bold;
+    margin-left: 15%;
+    font-size: 2em;
+    text-align: center;
     
 }
 .contact-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
+    margin-left: 15%;
+    font-size: 3em;
+    font-family: Verdana;
+    font-weight: bold;
     margin-top: 25px;
     margin-bottom: 20px;
 }
-
 
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    width:150%;
 }
 
 button[type="submit"] {
@@ -327,6 +331,19 @@ button[type="submit"] {
     list-style: none;
 }
 
+#fullname{
+    margin-bottom:2%;
+}
+#emailaddress{
+    margin-bottom:2%;
+}
+#phonenumber{
+    margin-bottom:2%;
+}
+#packetinformation
+{
+    margin-bottom:2%;
+}
 
 /***********Contact Form styling end***********/
 /***********Media queries start***********/
