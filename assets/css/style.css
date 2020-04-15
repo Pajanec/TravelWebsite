@@ -397,8 +397,17 @@ button[type="submit"] {
    margin-bottom:20px;
     
  }
+ .container {
+    padding-top: 15%;
 }
-/***********Media queries start***********/
+.media-map{
+        padding-top: 30%;
+}
+#contact-us-section {
+    padding-top: 40%;
+   padding-right: 5%;}
+}
+/***********Media queries end***********/
 
 /***********Holiday page start***********/
 
