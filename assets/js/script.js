@@ -1,67 +1,37 @@
 function initMap() {
- 
-  var europe = {lat: 48.270611, lng:9.243381};
-  var lucerne = {lat: 47.050321, lng:8.307818};
-  var granada = {lat: 37.173484, lng:-3.598352};
-  var arles = {lat: 43.676355, lng:4.624997};
-  var istra = {lat: 45.335663, lng:14.311068};
-  var florence ={lat:43.757439, lng:11.247570};
-  var corfu ={lat:39.649597, lng:19.860389}
-  var map = new google.maps.Map(
-      document.getElementById('map'), {
-          zoom: 4, 
-          center: europe,
-        disableDefaultUI: true
+
+    var locations = [
+         ['<h3>Lucerne Package</h3>', 47.050321,8.307818],
+         ['<h3>Granada Package</h3>', 37.173484,-3.598352],
+         ['<h3>Arles Package</h3>', 43.676355,4.624997],
+         ['<h3>Istra Package</h3>', 45.335663,14.311068],
+         
+         ['<h3>Florence Package</h3>', 43.757439,11.247571],
+         ['<h3>Corfu Package</h3>', 39.649597,19.860389],
+         
+    ];
+    var map = new google.maps.Map(document.getElementById('map'), {
+         zoom: 6,
+         center: new google.maps.LatLng(41.900276,12.492046),
+         mapTypeId: google.maps.MapTypeId.ROADMAP
     });
-  
 
-  var marker = new google.maps.Marker({position: lucerne, map: map  });
-  var spain= new google.maps.Marker({position: granada, map: map  });
-  var france = new google.maps.Marker({position: arles, map: map });
-  var croatia = new google.maps.Marker({position: istra, map: map});
-  var italy = new google.maps.Marker({position: florence, map: map});
-  var greece = new google.maps.Marker({position: corfu, map: map});
+    var infowindow = new google.maps.InfoWindow;
 
-  google.maps.event.addListener(marker,'click',function() {
-    map.setZoom(16);
-  map.setCenter(marker.getPosition());
-  window.setTimeout(function() {map.panTo(marker.getPosition());
-    }, 3000);
-});
+    var marker, i;
 
-google.maps.event.addListener(spain,'click',function() {
-    map.setZoom(16);
-  map.setCenter(spain.getPosition());
-  window.setTimeout(function() {map.panTo(spain.getPosition());
-    }, 3000);
-});
+    for (i = 0; i < locations.length; i++) {  
+        marker = new google.maps.Marker({
+             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+             map: map
+        });
 
-google.maps.event.addListener(france,'click',function() {
-   map.setZoom(16);
-  map.setCenter(france.getPosition());
-  window.setTimeout(function() {map.panTo(france.getPosition());
-    }, 3000);
-});
-
-google.maps.event.addListener(france,'click',function() {
-   map.setZoom(16);
-  map.setCenter(croatia.getPosition());
-  window.setTimeout(function() {map.panTo(france.getPosition());
-    }, 3000);
-});
-
-google.maps.event.addListener(france,'click',function() {
-   map.setZoom(16);
-  map.setCenter(italy.getPosition());
-  window.setTimeout(function() {map.panTo(france.getPosition());
-    }, 3000);
-});
- 
-
-google.maps.event.addListener(france,'click',function() {
-   map.setZoom(16);
-  map.setCenter(greece.getPosition());
-  window.setTimeout(function() {map.panTo(france.getPosition());
-    }, 3000);
-});
+        google.maps.event.addListener(marker, 'click', (function(marker, i) {
+             return function() {
+                 infowindow.setContent(locations[i][0]);
+                 infowindow.open(map, marker);
+             }
+        })(marker, i));
+    }
+    
 }
