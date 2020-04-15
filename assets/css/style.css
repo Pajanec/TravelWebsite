@@ -457,26 +457,26 @@ body{
     background-position: center center;
   }
     .image1{
-    background-image: url("/assets/images/holiday-offers/spain.jpg");
+    background-image: url("/assets/images/spain.jpg");
 
   }
     .image2{
-    background-image: url("/assets/images/holiday-offers/switzerland.jpg");
+    background-image: url("/assets/images/switzerland.jpg");
 
   }
     .image3{
-    background-image: url("/assets/images/holiday-offers/france.jpg");
+    background-image: url("/assets/images/france.jpg");
   }
     .image4{
-    background-image: url("/assets/images/holiday-offers/istra.jpg");
+    background-image: url("/assets/images/istra.jpg");
 
   }
     .image5{
-    background-image: url("/assets/images/holiday-offers/corfu-main.jpg");
+    background-image: url("/assets/images/corfu-main.jpg");
 
   }
     .image6{
-    background-image: url("/assets/images/holiday-offers/florence-main.jpg");
+    background-image: url("/assets/images/florence-main.jpg");
   }
   .iconbar{
     z-index: 100;
