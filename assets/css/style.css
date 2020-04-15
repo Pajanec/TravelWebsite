@@ -486,14 +486,14 @@ body{
     margin-top: 10px;
     color:#1F73B4;
     padding: 0;
-    font-family: Lato;
+    font-family: Verdana;
     font-weight: 300;
     font-size: 22px;
   }
 
   h5{
     align-self: flex-end;
-    font-family: Lato;
+    font-family: Verdana;
     font-weight: 700;
     font-size: 16px;
     color: #288F91;
@@ -698,8 +698,8 @@ body {
 	font-size: 0.8em;
 	color: #fff;
 	position: relative;
-	top: 65%;
-	left: 10%;
+	top: 75%;
+	left: 12%;
 	word-spacing: 10px;
 }
 /***********Holiday page Lucerne end***********/
@@ -817,3 +817,12 @@ body {
 	word-spacing: 10px;
 }
 /***********Holiday page Florence end***********/
+
+.header-map{
+    font-weight: bold;
+    padding-top: 8%;
+    text-align: center;
+    padding-bottom: 2%;
+    font-family: Verdana;
+    font-size: 3em;
+}
