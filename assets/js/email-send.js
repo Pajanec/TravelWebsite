@@ -1,3 +1,7 @@
+/* description: send email to concat*/
+/* @param concat form : object*/
+/* return: boolean -*/
+
 function sendMail(contactForm) {
     emailjs.send("default_service", "travel", {
         "from_name": contactForm.name.value,
