@@ -1,9 +1,12 @@
 /***********Main Structure Start***********/
-body {
-  min-height: 100vh;
-  position: relative;
-  margin: 0;
-  
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body, html {
+  height: 100%;
+  font-family: 'Oswald', sans-serif;
 }
 
 footer {
@@ -11,22 +14,150 @@ footer {
   bottom: 0;
 }
 
- * {
-  width: 100%;
-  text-align: center;
-}
 /***********Main structure end Start***********/
-/***********Images Start***********/
-body, html {
+/***********Navbar Start***********/
+.top{
+  background-image: url("/assets/images/holiday-deals-frontpage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100%;
+  position: relative;  
+  overflow:hidden;
+}
+
+.top-offer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.top-color{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  position: fixed;
+  width:100%;
+  opacity:.65;
+  font-size: 25px;
+}
+
+ul.navigation {
+  list-style-type: none;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
 }
 
-.image-packet{
-    padding-left: 10px;
+ul.navigation li{
+  float: left;
 }
 
-/***********Images End***********/
+ul.navigation li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 13px 25px;
+  text-decoration: none;
+}
+
+ul.navigation li.logo{
+  float: right;
+}
+
+.logo{
+  font-size:30px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.nav{
+  padding-top:5px;
+}
+/***********Navbar end***********/
+.middle{
+  position: fixed;
+  top: 40%;
+  left: 10%;
+  border-top:1px solid lightgrey; 
+}
+
+.middle h1{
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  opacity:.65;
+  letter-spacing:8px;
+}
+
+.middle p{
+  color: white;
+  font-size: 15px;
+  line-height: 1.5em;
+  width: 590px;
+  opacity:.65;
+  letter-spacing:.5px;
+}
+
+.example{
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  background:none;
+  width: 200px;
+  color: rgba(0, 0, 0, 0.8);
+  background: white;
+  cursor: pointer;  
+  border-radius:1em;
+  text-align:center;
+}
+
+a{
+    color:#403031;
+  text-decoration: none;
+}
+
+.example:hover{
+  opacity:.85;
+}
+
+form.example button:hover {
+  background:lightgrey;
+  border:2px solid lightgrey;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/***********Images Start***********/
+
+.collage {
+  display: flex; 
+  align-items: center;
+}
+
+.item {
+  padding: 0;
+  width: 100%;
+}
+
+/***********Images Start***********/
+
+
+
 /***********Footer Start***********/
 
 
@@ -56,29 +187,32 @@ body, html {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+    opacity: 0.65;
     
 }
 #footer {
-    background-color:#808080;
-    color: #fafafa;
+    background-color:white;
+    color: #808080;
     min-height: 120px;
     margin: 0;
     position: relative;
+    opacity: 0.65;
     
 }
 
 #footer-holiday-page{
-    background-color:	#808080;
-    color: #fafafa;
+    background-color:	white;
+    color: #808080;
     min-height: 120px;
     position: relative;
     margin-top: 100px;
+    opacity: 0.65;
 }
 #footer-contact-us-page{
     position: relative;
     margin-top: 300px;
-    background-color: #808080;
-    color: #fafafa;
+    background-color: white;
+    color: #808080;
     
 }
 #footer-details {
@@ -89,6 +223,7 @@ body, html {
     justify-content: center;
     width: 40px;
     display: inline-flex;
+    margin-left: 34%;
 }
 
 #footer-style-map{
@@ -96,22 +231,43 @@ body, html {
     margin-top:30px;
 }
 
-
+#footer-h5{
+        margin-left: 30%;
+    font-size: 2em;
+}
 /***********Footer End***********/
 /***********Buttons start***********/
 
 
 .button {
-  background-color: #FFC43D;
-  border: none;
-  color: #F8FFE5;
-  padding: 20px;
-  text-align: center;
-  text-decoration: underline;
-  display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 4px 2px;
+    font-family: Verdana;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    margin-top:5%;
+    text-transform: none;
+  }
+
+  .button1 {
+  font-family: Verdana;
+    background-color: white;
+    color: black;
+    padding: 18px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    margin-top: 5%;
+    text-transform: none;
+    padding-right: 10%;
+    text-decoration: underline;
   }
 /***********Buttons end***********/
 /***********Paragraphs Start***********/
@@ -128,20 +284,8 @@ body, html {
     
 }
 
-.paragraph-description{
-    font-size: 20px;
-    padding-top: 40px;
-    text-decoration: none;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.paragraph-description-info{
-     font-size: 20px;
-    
-    text-decoration: none;
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
+
 
 .packet-description{
     font-size: 20px;
@@ -156,17 +300,12 @@ body, html {
     font-size: 60px;
     text-align: center;
     padding: 20px;
-    color:#FFC43D;
-
-}
-.header-2{
+    color:#68575C;
+    margin-bottom: 0;
+    width: 100%;
+    background-color:#CEA29A;
     
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 15px;
-    text-decoration: underline;
-    color:#EF467F;
+
 }
 
 .contact-from-header{
@@ -174,17 +313,17 @@ body, html {
     
 }
 .all-inclusive-list{
-    line-height: 2;
-    font-weight: 400;
-    font-size: 18px;
-    font-style: italic;
-    color:#EF467F;
-    list-style-type: none;
+    text-align: justify;
+    font-family: Verdana;
+    margin-bottom: 0;
+    margin-left:6%;
+    list-style: none;
+    font-size: 15px;
+	line-height: 1.5em;
+	color: #95a5a6;
+    
+}
 
-}
-#all-inclusive-style{
-    padding-top:50px;
-}
 
 
 .granada{
@@ -236,18 +375,23 @@ button[type="submit"] {
 
 
 #contact-button{
-    
+    margin-left: 25%;
     text-align: center;
     font-weight: 800;
     text-decoration: none;
     border-style: none;
     font-size: 30px;
-    background-color:#808080;
+    color:#808080;
+    background-color:white;
+    margin-top:0;
     
 }
 
-a {
-    color:#FFC43D;
+
+#logo-vacay{
+    padding: 5%;
+    margin-left: 20%;
+    list-style: none;
 }
 
 
@@ -260,39 +404,323 @@ a {
     bottom: 0
 }
 
-#navbar-style{
-    width:25%;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color:	#303030;
+
+
+/***********Media queries start***********/
+
+@media screen and (max-width: 900px) {
+ 
+ .logo{
+   font-size:20px;
+ }
+  
+ .nav{
+   padding:0;
+   font-size:15px;
+ }
+  
+ header{
+   position: fixed;
+   width:100%;
+ }
+  
+ .collage{
+   display: block;
+   padding-top: 5px;
+   align-items: center;
+ }
+
+ .top{
+   background-position:initial;
+ }
+  
+ .middle{
+   position: fixed;
+   top: 200px;
+   left: 5px;
+ }
+  
+ .middle h1{
+   font-size:30px;
+   padding-bottom:10px;
+ }
+  
+ .middle p{
+   width:300px;
+ }
+  
+ .example{
+   width:150px;
+ }
+  
+ .bottom{
+   margin-bottom:20px;
+    
+ }
 }
+/***********Media queries start***********/
 
-#navbar-style-map{
-    font-size:30px;
-    font-weight: bold;
-     color:	#303030;
+/***********Holiday page start***********/
+
+
+
+body{
+  background-color:white;
 }
-#navbar-style-holiday{
-    font-size:30px;
-    font-weight: bold;
-     color:	#303030;
+.container{
+  margin: 0 auto;
 }
-#navbar-style-contact{
-    font-size:30px;
-    font-weight: bold;
-     color:	#303030;
-}
-
-
-
-
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .header-1{
-      font-size: 30px;
+  .featured-trips{
+    font-family: Verdana;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 100px;
+    color: #288F91;
   }
+.holiday-card{
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  min-height: 430px;
+  display: flex;
+  flex-direction: column;
   
 }
+.effect-1:hover{
+    transform: scale(1.02);
+    transform: translateY(-5px);
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }
+  .effect-1:hover .image{
+    background-size: 160%;
+    
+  }
+.effect-2:hover{
+    transform: scale(1.03);
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }
+  .effect-2:hover .image{
+    background-position: center bottom;
+    
+  }
+  .effect-1:hover .image:after{
+    opacity: 1;
+  }
+  .image:after{
+    content: "";
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(#6cc0c6, 0.6);
+  }
+  .image{
+    height: 300px;
+    transition: 0.4s ease-in-out;
+    position: relative;
+    background-size: 100%;
+    background-position: center center;
+  }
+    .image1{
+    background-image: url("/assets/images/holiday-offers/spain.jpg");
+
+  }
+    .image2{
+    background-image: url("/assets/images/holiday-offers/switzerland.jpg");
+
+  }
+    .image3{
+    background-image: url("/assets/images/holiday-offers/france.jpg");
+  }
+    .image4{
+    background-image: url("/assets/images/holiday-offers/istra-front.jpg");
+
+  }
+    .image5{
+    background-image: url("/assets/images/holiday-offers/corfu-main.jpg");
+
+  }
+    .image6{
+    background-image: url("/assets/images/holiday-offers/florence-main.jpg");
+  }
+  .iconbar{
+    z-index: 100;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 3px;
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+  }
+  i{
+    padding: 0px 5px 
+  }
+  .primary-icon{
+    padding-right: 5px;
+    color:#1F73B4;
+    font-size: 32px;
+    
+  }
+  .other-icons{
+    color: #288F91;
+  }
+  .text-content{
+    padding: 5px 10px;
+  }
+  hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h4{
+    margin-top: 10px;
+    color:#1F73B4;
+    padding: 0;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 22px;
+  }
+
+  h5{
+    align-self: flex-end;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    color: #288F91;
+    
+  }
+  
+  
+
+#card-margin{
+    margin-top:15px;
+}
+
+/***********Holiday page end***********/
 
 
+/***********Holiday page start***********/
+
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+.background-img {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 1;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#card {
+	position: absolute;
+	width: 800px;
+	height: 700px;
+	top: 50%;
+	left: 50%;
+	margin-top: -350px;
+	margin-left: -400px;
+	background-color: #fff;
+	border-radius: 8px;
+	z-index: 3;
+}
+
+#photo {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('/assets/images/spain-main.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 65%;
+	font-size: 4em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 65%;
+	left: 10%;
+	word-spacing: 10px;
+}
+#text {
+	font-family: 'Georgia', sans-serif;
+	width: 50%;
+	height: 100%;
+	float: right;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#text h1 {
+    font-family:Verdana;
+	font-size: 1.5em;
+	color: #000;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-top: 5%;
+    text-align:justify;
+    margin-right: 5%;
+}
+#text h3 {
+	font-size: 0.8em;
+	color: #3498db;
+	margin-bottom: 20px;
+	margin-left: 5%;
+}
+#text p {
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #95a5a6;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;    
+    text-decoration: none;
+    text-align: justify;
+    font-family: Verdana;
+
+}
+#text img {
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto 0 5%;
+}
