@@ -79,6 +79,16 @@ This project has been deployed through GitHub pages
 - Selected  TravelWebsite repository
 - Clicked on settings buttom
 - Scrolled down and hosted pages thorugh GitHub Pages  by selecting master branch as  main source
+## Steps
+### Step 1
+- Open a repository on your GitHub profile, navigate and click  settings icon.
+- ![step_1_git_pages_deployment](https://user-images.githubusercontent.com/48963702/79507430-9d5a9900-802f-11ea-8dcc-28130e89a51b.jpg)
+### Step 2
+- Scroll down, press dropdown button under Source section which is in  GitHub Pages section, select master branch as source of your deployment.
+- ![step_2_git_pages_deployment](https://user-images.githubusercontent.com/48963702/79507452-a5b2d400-802f-11ea-8b07-6fb2fd688adb.jpg)
+### Step 3
+- Wait a little bit, refresh the page and  the site has been deployed at the link generated. 
+- ![step_3_git_pages_deployment](https://user-images.githubusercontent.com/48963702/79507464-afd4d280-802f-11ea-9433-b6482ff2fde9.jpg)
 
 
 
