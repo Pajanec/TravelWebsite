@@ -22,7 +22,7 @@ footer {
 /***********Main structure end Start***********/
 /***********Navbar Start***********/
 .top{
-  background-image: url("./assets/images/holiday-deals-frontpage.jpg");
+  background-image: url("/assets/images/holiday-deals-frontpage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -457,26 +457,26 @@ body{
     background-position: center center;
   }
     .image1{
-    background-image: url("./assets/images/spain.jpg");
+    background-image: url("/assets/images/spain.jpg");
 
   }
     .image2{
-    background-image: url("./assets/images/switzerland.jpg");
+    background-image: url("/assets/images/switzerland.jpg");
 
   }
     .image3{
-    background-image: url("./assets/images/france.jpg");
+    background-image: url("/assets/images/france.jpg");
   }
     .image4{
-    background-image: url("./assets/images/istra.jpg");
+    background-image: url("/assets/images/istra.jpg");
 
   }
     .image5{
-    background-image: url("./assets/images/corfu-main.jpg");
+    background-image: url("/assets/images/corfu-main.jpg");
 
   }
     .image6{
-    background-image: url("./assets/images/florence-main.jpg");
+    background-image: url("/assets/images/florence-main.jpg");
   }
   .iconbar{
     z-index: 100;
@@ -577,7 +577,7 @@ body {
 	height: 100%;
 	float:left;
 	width: 50%;
-	background-image: url('./assets/images/spain-main.jpg');
+	background-image: url('/assets/images/spain-main.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% 50%;
@@ -658,7 +658,7 @@ body {
 	height: 100%;
 	float:left;
 	width: 50%;
-	background-image: url('./assets/images/istra-front.jpg');
+	background-image: url('/assets/images/istra-front.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% 50%;
@@ -696,7 +696,7 @@ body {
 	height: 100%;
 	float:left;
 	width: 50%;
-	background-image: url('./assets/images/lucerne.jpg');
+	background-image: url('/assets/images/lucerne.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% 50%;
@@ -734,7 +734,7 @@ body {
 	height: 100%;
 	float:left;
 	width: 50%;
-	background-image: url('./assets/images/arles.jpg');
+	background-image: url('/assets/images/arles.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% 50%;
@@ -772,7 +772,7 @@ body {
 	height: 100%;
 	float:left;
 	width: 50%;
-	background-image: url('./assets/images/corfu.jpg');
+	background-image: url('/assets/images/corfu.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% 50%;
@@ -810,7 +810,7 @@ body {
 	height: 100%;
 	float:left;
 	width: 50%;
-	background-image: url('./assets/images/florence.jpg');
+	background-image: url('/assets/images/florence.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% 50%;
