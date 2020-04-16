@@ -149,7 +149,7 @@ form.example::after {
   padding: 0;
   width: 100%;
 }
-/***********Images Start***********/
+/***********Images End***********/
 /***********Footer Start***********/
 .social-links li a i {
     width: 32px;
@@ -208,18 +208,19 @@ form.example::after {
 #footer-style{
     justify-content: center;
     width: 40px;
-    display: inline-flex;
-    margin-left: 34%;
-}
+    
+    margin: auto;
+    display: flex;}
 
 #footer-style-map{
-     
-    margin-top:30px;
+     margin-top:30px;
 }
 
 #footer-h5{
-        margin-left: 30%;
-    font-size: 2em;
+     font-size: 2em;
+}
+.col-sm-4{
+    text-align:center;
 }
 /***********Footer End***********/
 /***********Buttons start***********/
@@ -254,7 +255,7 @@ form.example::after {
     text-decoration: underline;
   }
 /***********Buttons end***********/
-/***********Paragraphs Start***********/
+/***********List styling Start***********/
 
 
 .all-inclusive-list{
@@ -268,7 +269,11 @@ form.example::after {
 	color: #95a5a6;
     
 }
-/***********Paragrapsh end***********/
+
+.list-extra-stuff{
+    margin-left:30px;
+}
+/***********List styling end***********/
 /***********Map start***********/
 #map {
   height: 765px;
@@ -312,7 +317,7 @@ button[type="submit"] {
 
 
 #contact-button{
-    margin-left: 25%;
+    
     text-align: center;
     font-weight: 800;
     text-decoration: none;
@@ -327,7 +332,7 @@ button[type="submit"] {
 
 #logo-vacay{
     padding: 5%;
-    margin-left: 20%;
+    
     list-style: none;
 }
 
@@ -346,68 +351,7 @@ button[type="submit"] {
 }
 
 /***********Contact Form styling end***********/
-/***********Media queries start***********/
 
-@media screen and (max-width: 900px) {
- 
- .logo{
-   font-size:20px;
- }
-  
- .nav{
-   padding:0;
-   font-size:15px;
- }
-  
- header{
-   position: fixed;
-   width:100%;
- }
-  
- .collage{
-   display: block;
-   padding-top: 5px;
-   align-items: center;
- }
-
- .top{
-   background-position:initial;
- }
-  
- .middle{
-   position: fixed;
-   top: 200px;
-   left: 5px;
- }
-  
- .middle h1{
-   font-size:30px;
-   padding-bottom:10px;
- }
-  
- .middle p{
-   width:300px;
- }
-  
- .example{
-   width:150px;
- }
-  
- .bottom{
-   margin-bottom:20px;
-    
- }
- .container {
-    padding-top: 15%;
-}
-.media-map{
-        padding-top: 30%;
-}
-#contact-us-section {
-    padding-top: 40%;
-   padding-right: 5%;}
-}
-/***********Media queries end***********/
 
 /***********Holiday page start***********/
 
@@ -852,3 +796,98 @@ body {
     font-family: Verdana;
     font-size: 3em;
 }
+
+
+/***********Media queries start***********/
+
+  
+  
+
+@media screen and (max-width: 767px) {
+ #text h1 {
+    font-family: Verdana;
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+   
+}
+ #card {
+    width: 100%;
+    height: 165%;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    border-radius: 8px;
+    position:initial; 
+    margin-top:auto;
+    margin-left:auto}
+
+#text {
+    font-family: 'Georgia', sans-serif;
+    width: 100%;
+    height: 100%;
+    float: right;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+ .logo{
+   font-size:20px;
+ }
+  
+ .nav{
+   padding:0;
+   font-size:15px;
+ }
+  
+ header{
+   position: fixed;
+   width:100%;
+ }
+  
+ .collage{
+   display: block;
+   padding-top: 5px;
+   align-items: center;
+ }
+
+ .top{
+   background-position:initial;
+ }
+  
+ .middle{
+   position: fixed;
+   top: 200px;
+   left: 5px;
+ }
+  
+ .middle h1{
+   font-size:30px;
+   padding-bottom:10px;
+ }
+  
+ .middle p{
+   width:300px;
+ }
+  
+ .example{
+   width:150px;
+ }
+  
+ .bottom{
+   margin-bottom:20px;
+    
+ }
+ .container {
+    padding-top: 15%;
+}
+.media-map{
+        padding-top: 30%;
+}
+#contact-us-section {
+    padding-top: 40%;
+   padding-right: 5%;}
+}
+/***********Media queries end***********/
